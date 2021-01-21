@@ -73,6 +73,43 @@ namespace Calculadora
                     break;
 
                 case "d":
+
+                    while (num1 == 0)
+                    {
+                        Console.WriteLine("Digite um Numero Diferente de Zero");
+                        num1 = Convert.ToDouble(Console.ReadLine());
+
+                    }
+
+                    while (num2 == 0)
+                    {
+                        Console.WriteLine("Digite um Numero Diferente de Zero");
+                        num2 = Convert.ToDouble(Console.ReadLine());
+
+                    }
+
+                    while (num3 == 0)
+                    {
+                        Console.WriteLine("Digite um Numero Diferente de Zero");
+                        num3 = Convert.ToDouble(Console.ReadLine());
+
+                    }
+
+                    while (num4 == 0)
+                    {
+                        Console.WriteLine("Digite um Numero Diferente de Zero");
+                        num4 = Convert.ToDouble(Console.ReadLine());
+
+                    }
+
+                    while (num5 == 0)
+                    {
+                        Console.WriteLine("Digite um Numero Diferente de Zero");
+                        num5 = Convert.ToDouble(Console.ReadLine());
+
+                    }
+
+
                     Console.WriteLine($"Seu Resultado: {num1} / {num2} / {num3} / {num4} / {num5} = " + (num1
                     / num2
                     / num3
